@@ -1,0 +1,26 @@
+{
+  "itemSummaries": [
+    {
+      "title": "Charizard GX - Hidden Fates",
+      "price": { "value": "22.50", "currency": "USD" },
+      "condition": "USED",
+      "seller": { "feedbackPercentage": "99.1" },
+      "shippingOptions": [
+        { "shippingCost": { "value": "3.99", "currency": "USD" } }
+      ],
+      "itemEndDate": "2025-06-16T02:30:00.000Z",
+      "buyingOptions": ["AUCTION"]
+    },
+    {
+      "title": "Charizard VMAX - Darkness Ablaze",
+      "price": { "value": "35.99", "currency": "USD" },
+      "condition": "NEW",
+      "seller": { "feedbackPercentage": "98.5" },
+      "shippingOptions": [
+        { "shippingCost": { "value": "0.00", "currency": "USD" } }
+      ],
+      "itemEndDate": "2025-06-16T02:45:00.000Z",
+      "buyingOptions": ["FIXED_PRICE"]
+    }
+  ]
+}

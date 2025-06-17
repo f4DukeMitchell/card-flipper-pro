@@ -1,0 +1,43 @@
+Application Keys
+HomeApplication Keys
+eBay has created your CrdFlp2025 keyset for the Sandbox
+
+?
+Help
+To use eBay’s APIs, you need to:
+
+Create a unique title for your application, using this form.
+Generate a unique set of keys (a keyset) that will serve as your application’s credentials:
+App ID/Client ID: This uniquely identifies your application.
+
+Dev ID: This uniquely identifies your developer account.
+
+Cert ID/Secret: This is a client secret (like a password for your App ID), which should be kept confidential.
+
+eBay supports two environments:
+
+Production: This is the eBay website, where eBay members buy and sell items.
+Sandbox: This is a test version of the eBay website, where developers can simulate buying and selling items
+Generate a separate keyset for each environment, using this form. The App IDs (Client IDs) will be different. The Dev ID will be shared. Your keyset will be stored here in your developer account. You should also copy and save your keys locally for use in your application.
+
+In some cases, you may need additional credentials, to act on behalf of specific eBay members.
+For example, to list items or manage orders, you need an authentication token for each seller who uses your application. After you generate your keyset, use the User Tokens option next to your App ID to learn more about tokens and how to create them.
+
+All new keys created after October 19, 2016 can use both OAuth 2.0 and eBay's older Auth 'n' Auth for user authentication. If you created any keys before October 19, they support Auth 'n' Auth only, and you can manually choose to enable OAuth for them.
+
+You must use the OAuth sign-in process to get user tokens for eBay's new Buy and Sell APIs. If you use older APIs like the Trading API, we recommend that you use OAuth; but eBay's older Auth 'n' Auth process is also still available for older applications.
+
+See the API Documentation for information about the APIs that are available, and what kind of authentication they support.
+
+
+Sandbox
+Request another keyset
+CrdFlp2025
+App ID (Client ID)
+MatthewS-CrdFlp20-SBX-263259ae6-6c628f29
+User Tokens|Notifications
+Dev ID
+f5f41db6-53ec-49f9-8979-0cdc0718a2af
+Cert ID (Client Secret)
+SBX-63259ae62132-b5f1-44da-95a0-c9e9
+Rotate (Reset) Cert ID

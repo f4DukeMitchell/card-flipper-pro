@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CardFlipper Launcher</title>
+  <style>
+    body {
+      font-family: monospace;
+      background: black;
+      color: #33ff33;
+      text-align: center;
+      padding: 2rem;
+    }
+    a {
+      display: block;
+      margin: 1rem;
+      color: #00ffff;
+      font-size: 1.2rem;
+    }
+    iframe {
+      width: 48%;
+      height: 500px;
+      border: 1px solid #33ff33;
+    }
+  </style>
+</head>
+<body>
+  <h1>🟢 CardFlipper Pro Launcher</h1>
+
+  <a href="http://localhost:5000/scan" target="_blank">🧾 View JSON API (Flask)</a>
+  <a href="http://localhost:5173" target="_blank">🖥 View SvelteKit UI</a>
+
+  <div style="display: flex; justify-content: space-around; margin-top: 2rem;">
+    <iframe src="http://localhost:5000/scan"></iframe>
+    <iframe src="http://localhost:5173"></iframe>
+  </div>
+</body>
+</html>
