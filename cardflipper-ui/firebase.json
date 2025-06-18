@@ -1,15 +1,13 @@
 {
+  "functions": {
+    "source": "functions"
+  },
   "hosting": {
-    "public": "public",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
+    "public": "build/client",
     "rewrites": [
       {
         "source": "**",
-        "destination": "/index.html"
+        "function": "sveltekit"
       }
     ]
   }
